@@ -2,9 +2,6 @@ import React from 'react';
 import { useParams } from 'react-router';
 
 
-
-
-
 const Booking = () => {
     const { breakfastId } = useParams();
 

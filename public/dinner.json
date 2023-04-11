@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Salmon with Grapefruit and Lentil Salad",
+        "Ingredients": "",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/CztPjCg/dinner1.png"
+    },
+    {
+        "id": 2,
+        "name": "Lemony Salmon Piccata",
+        "Ingredients": "tomato puree, paprika, sugar, and salt into the vegetable mixture",
+        "price": "$10.99",
+        "img": "https://i.ibb.co/NpMGWNk/dinner2.png"
+    },
+    {
+        "id": 3,
+        "name": "Pork Tenderloin with Quinoa Pilaf",
+        "Ingredients": "vegetables like potatoes, carrots, peas and beans cooked with onions & tomatoes adding",
+        "price": "$12.99",
+        "img": "https://i.ibb.co/KswPHWQ/dinner3.png"
+    },
+    {
+        "id": 4,
+        "name": "French Fries with Cheese",
+        "Ingredients": "tomatoes, ginger, garlic and chili powder",
+        "price": "$8.99",
+        "img": "https://i.ibb.co/wNH40KQ/dinner4.png"
+    },
+    {
+        "id": 5,
+        "name": "Garlic Butter Baked Salmon",
+        "Ingredients": "ginger, jalapeno pepper, tomato, lemon juice, and turmeric",
+        "price": "$6.99",
+        "img": "https://i.ibb.co/sCGPZcF/dinner5.png"
+    },
+    {
+        "id": 6,
+        "name": "Baked Chiken",
+        "Ingredients": "baked and chiken, ginger, turmeric, salt and cayenne pepper",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/MSRybMS/dinner6.png"
+    }
+]
