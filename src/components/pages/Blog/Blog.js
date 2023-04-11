@@ -1,12 +1,12 @@
 import React from 'react';
-import img1 from '../../../images/Image/card.png'
-import img2 from '../../../images/Image/card-2.png'
-import img3 from '../../../images/Image/card-3.png'
-import './About.css'
+import img1 from '../../../images/card/card.png'
+import img2 from '../../../images/card/card-2.png'
+import img3 from '../../../images/card/card-3.png'
+import './Blog.css'
 
-const About = () => {
+const Blog = () => {
     return (
-        <div className="container text-start my-5">
+        <div className="container text-start my-5" id='blog'>
             <div className="col-md-5 ">
                 <h4>Why you choose us</h4>
                 <small>
@@ -62,4 +62,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default Blog;

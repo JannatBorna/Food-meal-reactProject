@@ -1,80 +1,51 @@
-import React from 'react';
-import {Navbar, Container,  Nav,  Stack } from 'react-bootstrap';
-import { NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
+import './Header.css';
+
 
 const Header = () => {
-    return (
-        <Navbar color="white" bg="dark" expand="lg"
-         > 
-                  
-       
-        <Container fluid>
-                <Navbar.Brand  href="#"><span className="fw-bolder text-danger">Martial arts</span></Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
-                <Navbar.Collapse id="navbarScroll">
-      <Nav
-          className="me-auto my-2 my-lg-0"
-          style={{ maxHeight: '100px'}}
-          navbarScroll
+
+const [isNavExpanded, setIsNavExpanded] = useState(false);
+
+  return (
+    <nav className="navigation">
+            <a href="/" className="brand-name">FoodMeal</a>
+      <button
+        className="hamburger"
+        onClick={() => {
+          setIsNavExpanded(!isNavExpanded);
+        }}
       >
-        <Stack direction="horizontal" gap={5}>
-            <NavLink
-               to="/home"
-                activeStyle={{
-                 
-                  fontWeight: "bold",
-                  color: "white",
-                  fontSize: "20px",
-                  textDecoration: "none"
-                  }}
-               >
-             Home
-           </NavLink>
-
-           <NavLink
-              to="/about"
-                  activeStyle={{
-                     fontWeight: "bold",
-                     color: "white",
-                     fontSize: "20px",
-                     textDecoration: "none"
-                     }}
-                     >
-           About
-           </NavLink>
-
-           <NavLink
-              to="/services"
-                  activeStyle={{
-                     fontWeight: "bold",
-                     color: "white",
-                     fontSize: "20px",
-                     textDecoration: "none"
-                     }}
-                     >
-           Services
-           </NavLink>
-
-           <NavLink
-              to="/login"
-                  activeStyle={{
-                     fontWeight: "bold",
-                     color: "white",
-                     fontSize: "20px",
-                     textDecoration: "none"
-                     }}
-                     >
-           Login
-           </NavLink>
-
-
-        </Stack>
-    </Nav>
-        
-      
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
+        {/* icon from Heroicons.com */}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="white"
+        >
+          <path
+            fillRule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+            clipRule="evenodd"
+          />
+        </svg>
+      </button>
+      <div
+        className={
+          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
+        }
+      >
+        <ul>
+          <li>
+            <a href="#home">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     );
 };
 

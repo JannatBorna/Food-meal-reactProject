@@ -1,6 +1,6 @@
 import React from 'react';
 import { Form, Button, FloatingLabel, Row, Col } from 'react-bootstrap';
-import img from '../../../images/login2.png';
+import img from '../../../images/others/login.png';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hook/useAuth';
 import './Login.css';
