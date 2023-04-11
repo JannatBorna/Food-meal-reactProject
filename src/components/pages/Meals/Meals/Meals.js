@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { addToDb, getDb } from '../../../localstorage/localstorage';
+import { addToDb, getDb } from '../../../../localstorage/localstorage';
 import Meal from '../Meal/Meal';
-import OrderList from '../OrderList/OrderList';
-import './Restaurant.css';
+import OrderList from '../../OrderList/OrderList';
+import './Meals.css';
 
-const Restaurant = () => {
+const Meals = () => {
     const [meals, setMeals] = useState([]);
     const [order, setOrder] = useState([]);
 
@@ -49,7 +49,7 @@ const Restaurant = () => {
     }
 
     return (
-        <div className="restaurant-menu">
+        <div className="meals-menu">
             <div className="meals-container">
                 {
                     meals.map(meal => <Meal
@@ -67,4 +67,4 @@ const Restaurant = () => {
     );
 };
 
-export default Restaurant;
+export default Meals;

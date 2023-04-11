@@ -8,6 +8,7 @@ import Breakfast from './components/Pages/Foods/Breakfast/Breakfast';
 import Dinner from './components/Pages/Foods/Dinner/Dinner';
 import Lunch from './components/Pages/Foods/Lunch/Lunch';
 import SeeMore from './components/Pages/SeeMore/SeeMore';
+import Meals from './components/Pages/Meals/Meals/Meals';
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
             <Header />
           <Routes>
             <Route exact path="/" element={<Home />}>
+            </Route>
+
+            <Route exact path="/home" element={<Home />}>
             </Route>
 
             <Route exact path="/login" element={<Login />}>
@@ -32,6 +36,9 @@ function App() {
             </Route>
 
             <Route path="/profile" element={<Lunch />}>
+            </Route>
+
+            <Route path="/meals" element={<Meals />}>
             </Route>
 
             <Route path="/seemore" element={<SeeMore />}>
