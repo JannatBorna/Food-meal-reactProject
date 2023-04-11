@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { addToDb, getDb } from '../../localstorage/localstorage';
+import { addToDb, getDb } from '../../../localstorage/localstorage';
 import Meal from '../Meal/Meal';
 import OrderList from '../OrderList/OrderList';
 import './Restaurant.css';
