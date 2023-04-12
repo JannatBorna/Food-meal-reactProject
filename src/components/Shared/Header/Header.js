@@ -1,57 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Header.css';
+import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
 
 
 const Header = () => {
 
-const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   return (
-    <nav className="navigation">
-            <a href="/" className="brand-name">FoodMeal</a>
-      <button
-        className="hamburger"
-        onClick={() => {
-          setIsNavExpanded(!isNavExpanded);
-        }}
-      >
-        {/* icon from Heroicons.com */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="white"
-        >
-          <path
-            fillRule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </button>
-      <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
-      >
-        <ul>
-          <li>
-            <a href="/home">Home</a>
-          </li>
-
-          <li>
-            <a href="#about">About</a>
-          </li>
-
-          <li>
-            <a href="#blog">Blog</a>
-          </li>
-
-          <li>
-            <a href="/meals">Meals</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <Navbar expand="lg" bg="dark" variant="dark" sticky="top" className='navbar'>
+      <Container>
+        <Navbar.Brand href="/home" className='web-name'>FoodMeal</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto justify-content-end flex-grow-1 pe-3">
+            <Nav.Link href="/home" className='manu'>Home</Nav.Link>
+            <Nav.Link href="#about" className='manu'>About</Nav.Link>
+            <NavDropdown title="Food" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/breakfast" className=''>Breakfast</NavDropdown.Item>
+              <NavDropdown.Item href="/lunch" className=''>Lunch</NavDropdown.Item>
+              <NavDropdown.Item href="/dinner" className=''>Dinner</NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="/meals" className='manu'>Meals</Nav.Link>
+            <Nav.Link href="#blog" className='manu'>Blog</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
     );
 };
 
