@@ -9,7 +9,7 @@ const Banner = () => {
             {/* <Col lg={6} md={6} sm={12}> */}
                 {/* <div> */}
                     <h2>Best food waiting for your belly</h2>
-                    <h5></h5>
+                    {/* <h5></h5> */}
                 {/* </div> */}
             {/* </Col> 
          <Col lg={6} md={6} sm={12}></Col>
