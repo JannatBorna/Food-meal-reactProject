@@ -1,10 +1,19 @@
 import React from 'react';
 import './Banner.css';
+import { Col, Row } from 'react-bootstrap';
 
 const Banner = () => {
     return (
-        <div className="banner d-flex flex-column justify-content-center" >
-            <h1>Best food waiting for your belly</h1>
+        <div className="banner" >
+          {/* <Row> */}
+            {/* <Col lg={6} md={6} sm={12}> */}
+                {/* <div> */}
+                    <h2>Best food waiting for your belly</h2>
+                    <h5></h5>
+                {/* </div> */}
+            {/* </Col> 
+         <Col lg={6} md={6} sm={12}></Col>
+          </Row>*/}
         </div>
     );
 };

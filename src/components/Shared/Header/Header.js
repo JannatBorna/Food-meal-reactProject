@@ -15,12 +15,17 @@ const Header = () => {
           <Nav className="me-auto justify-content-end flex-grow-1 pe-3">
             <Nav.Link href="/home" className='manu'>Home</Nav.Link>
             <Nav.Link href="#about" className='manu'>About</Nav.Link>
+            {/* <NavDropdown title="Shop" id="basic-nav-dropdown"> */}
+              {/* <NavDropdown.Item href="/breakfast" className=''>Breakfast</NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="/lunch" className=''>Lunch</NavDropdown.Item> */}
+              {/* <NavDropdown.Item href="/dinner" className=''>Dinner</NavDropdown.Item> */}
+            {/* </NavDropdown> */}
             <NavDropdown title="Food" id="basic-nav-dropdown">
               <NavDropdown.Item href="/breakfast" className=''>Breakfast</NavDropdown.Item>
               <NavDropdown.Item href="/lunch" className=''>Lunch</NavDropdown.Item>
               <NavDropdown.Item href="/dinner" className=''>Dinner</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/meals" className='manu'>Meals</Nav.Link>
+            <Nav.Link href="/meals" className='manu'>Shop</Nav.Link>
             <Nav.Link href="#blog" className='manu'>Blog</Nav.Link>
           </Nav>
         </Navbar.Collapse>

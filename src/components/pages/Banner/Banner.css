@@ -1,12 +1,13 @@
 .banner{
-    background-image: url("../../../images/others/bannerbackground.png");
-    height: 500px;
+    background-image: url("../../images/others/banner-2.jpg");
+    height: 100vh;
     width: 100%;
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     /* margin-top: 100px; */
 }
+
 
 .input-field{
     padding: 8px 30px;
