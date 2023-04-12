@@ -1,6 +1,5 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from './components/Pages/Header/Header';
 import Home from './components/Pages/Home/Home';
 import Login from './components/Pages/Login/Login';
 import FoodHeader from './components/Pages/Foods/FoodHeader/FoodHeader';
@@ -9,6 +8,8 @@ import Dinner from './components/Pages/Foods/Dinner/Dinner';
 import Lunch from './components/Pages/Foods/Lunch/Lunch';
 import SeeMore from './components/Pages/SeeMore/SeeMore';
 import Meals from './components/Pages/Meals/Meals/Meals';
+import Header from './components/Shared/Header/Header';
+import Footer from './components/Shared/Footer/Footer';
 
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
             <Route path="/seemore" element={<SeeMore />}>
             </Route>
          </Routes>
+        <Footer />
      </BrowserRouter> 
     </div>
   );
