@@ -1,0 +1,161 @@
+[
+    {
+        "id": 1,
+        "name": "Fish pie",
+        "Ingredients":".Put the potatoes in a large pan of cold salted water and bring to the boil. Lower the heat, cover, then simmer gently for 15 minutes until tender. Drain, then return to the pan over a low heat for 30 seconds to drive off any excess water. Mash with 1 tbsp olive oil, then season.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/V3CSz9Z/1.jpg"
+    },
+    
+    {
+        "id": 2,
+        "name": "Fish fofos",
+        "Ingredients": "STEP 1 Put the fish into a lidded pan and pour over enough water to cover. Bring to a simmer and gently poach for 10 minutes over a low heat with the lid on. Drain and flake the fish.",
+        "price": "$10.99",
+        "img": "https://i.ibb.co/ZfpgnZz/2.jpg"
+    },
+    
+    {
+        "id": 3,
+        "name": "Three Fish Pie",
+        "Ingredients": "Preheat the oven to 200C/400F/Gas 6 (180C fan). Put the potatoes into a saucepan of cold salted water. Bring up to the boil and simmer until completely tender. Drain well and then mash with the butter and milk. Add pepper and taste to check the seasoning.",
+        "price": "$12.99",
+        "img": "https://i.ibb.co/DQQ6SqS/3.jpg"
+    },
+    
+    {
+        "id": 4,
+        "name": "Escovitch Fish",
+        "Ingredients": "Rinse fish; rub with lemon or lime, seasoned with salt and pepper or use your favorite seasoning. I used creole seasoning. Set aside or place in the oven to keep it warm until sauce is ready. In large skillet heat oil over medium heat, until hot, add the fish, cook each side",
+        "price": "$8.99",
+        "img": "https://i.ibb.co/KN155bw/4.jpg"
+    },
+    
+    {
+        "id": 5,
+        "name": "Saltfish and Ackee",
+        "Ingredients": "For the saltfish, soak the salt cod overnight, changing the water a couple of times. Drain, then put the cod in a large pan of fresh water and bring to the boil. Drain again, add fresh water and bring to the boil again. Simmer for about five minutes, or until cooked through.",
+        "price": "$6.99",
+        "img": "https://i.ibb.co/fXTpjR4/5.jpg"
+    },
+    
+    {
+        "id": 6,
+        "name": "Recheado Masala Fish",
+        "Ingredients": "Soak all the spices, ginger, garlic, tamarind pulp and kashmiri chilies except oil in vinegar. Add sugar and salt. Also add turmeric powder. Combine all nicely and marinate for 35-40 mins. Grind the mixture until soft and smooth. Add more vinegar if required but ensure the paste.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/5kRBZZJ/6.jpg"
+    },
+    
+    {
+        "id": 7,
+        "name": "Fish Stew with Rouille",
+        "Ingredients": "Twist the heads from the prawns, then peel away the legs and shells, but leave the tails intact. Devein each prawn. Fry the shells in 1 tbsp oil for 5 mins, until dark pink and golden in patches. Add the wine, boil down by two thirds, then pour in the stock. Strain into a jug, discarding the shells.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/0BGGmK0/7.jpg"
+    },
+
+    {
+        "id": 8,
+        "name": "Cajun spiced fish tacos",
+        "Ingredients": "Cooking in a cajun spice and cayenne pepper marinade makes this fish super succulent and flavoursome. Top with a zesty dressing and serve in a tortilla for a quick, fuss-free main that's delightfully summery. On a large plate, mix the cajun spice and cayenne pepper with a little seasoning use.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/vD78mbj/8.jpg"
+    },
+
+    {
+        "id": 9,
+        "name": "Portuguese fish stew",
+        "Ingredients": "STEP 1 Heat a drizzle of oil in a large, deep-sided frying pan, and fry the onion and pepper on a medium heat until softened but not browned. Finely chop the coriander stalks (keep the leaves for later), and add to the pan with the chilli and chopped garlic. Fry for another few minutes.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/FK3jrc4/9.jpg"
+    },
+
+    {
+      "id": 11,
+      "name": "Fried Rice (chǎofàn)",
+      "Ingredients": "“Rice is a staple in Chinese cuisine,” Yinn Low tells us. “Chinese fried rice is a complete meal that feeds the entire family. The combination of ingredients can be anything from protein (chicken, pork, shrimp) to vegetables (carrots, mixed vegetables).",
+      "price": "$9.99",
+      "img": "https://i.ibb.co/bKPn2W5/10.jpg"
+    },
+
+    {
+      "id": 11,
+      "name": "Peking Duck (běijīng Kǎoyā)",
+      "Ingredients": "“Personally, I think Peking duck is the best way to eat duck,” Yinn Low tells us of the Beijing dish. “Crispy roasted duck sliced into bite-sized pieces, rolled up in a wrapper with salad and hoisin sauce.” Peking duck is seasoned, dried for 24 hours and cooked in an open-air oven called a hung oven.",
+      "price": "$9.99",
+      "img": "https://i.ibb.co/vPhWRTD/11.jpg"
+   },
+
+    {
+      "id": 12,
+      "name": "Baozi",
+      "Ingredients": "There are two types of baozi, or bao: dàbāo (big bun) and xiǎobāo (small bun). Both are a bread-like dumpling filled with everything from meat to veggies to bean paste, depending on the type and where they were made. They’re usually steamed—which makes the buns delightfully squishy and soft—and served with dipping sauces like soy sauce, vinegar, sesame oil and chile pastes.",  
+      "price": "$9.99",
+      "img": "https://i.ibb.co/y6j1Mkq/12.jpg"
+    },
+    
+    {
+        "id": 13,
+        "name": "Penne Pasta",
+        "Ingredients": "Another popular shape, penne has a round, tube like structure, with diagonal cuts at either end. That’s why it’s best served in dishes that have a relatively thick, creamy sauce as it penetrates the tube and holds the sauce well, such as Penne Arrabbiata. This is also the best type of pasta to use in pasta bake dishes.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/3fXJYsg/13.jpg"
+    },
+
+    {
+        "id": 14,
+        "name": "Cochinita Pibil (Pibil Pork Stew)",
+        "Ingredients": "What should you do with stale tortillas? Why, fry them of course! Literally meaning toasted, tostadas are a simple but delicious dish involving corn tortillas fried in boiling oil until they become crunchy and golden. These are then served alone or piled high with any number of garnishes. Popular toppings include frijoles (refried beans), cheese, cooked meat, seafood and ceviche.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/8mVR8jQ/14.jpg"
+    },
+
+    {
+        "id": 15,
+        "name": "Guacamole",
+        "Ingredients": "Guacamole is undoubtedly one of Mexico’s most popular dishes, but few people know that this traditional sauce dates back to the time of the Aztecs. Made from mashed-up avocados, onions, tomatoes, lemon juice and chilli peppers (and sometimes a clove or two of garlic), guacamole is often eaten with tortilla chips or used as a side dish.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/yQn1DjR/15.jpg"
+    },
+
+    {
+       "id": 16,
+       "name": "Chilaquiles",
+       "Ingredients": "This popular traditional breakfast dish features lightly fried corn tortillas cut into quarters and topped with green or red salsa (the red is slightly spicier). Scrambled or fried eggs and pulled chicken are usually added on top, as well as cheese and cream. Chilaquiles are often served with a healthy dose of frijoles (refried beans).",
+       "price": "$9.99",
+       "img": "https://i.ibb.co/TKmFdhY/16.jpg"
+    },
+
+    {
+        "id": 17,
+        "name": "Tacos al pastor",
+        "Ingredients": "This historic dish is one of the most popular varieties of tacos, with origins dating back to the 1920s and 30s and the arrival of Lebanese and Syrian immigrants to Mexico. To create tacos al pastor (meaning ‘in the style of the shepherd’), thin strips of pork are sliced off a spit, placed on a corn tortilla and served with onions, coriander leaves and pineapple.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/vd10D0T/17.jpg"
+    },
+
+    {
+        "id": 18,
+        "name": "Chiles en nogada",
+        "Ingredients": "Boasting the three colours of the Mexican flag, chiles en nogada is one of Mexico’s most patriotic dishes. Poblano chillies filled with picadillo (a mixture of chopped meat, fruits and spices) represent the green on the flag, the walnut-based cream sauce is the white and pomegranate seeds are the red. Originating from Puebla, history relates that the dish was first served to Don Agustín de Iturbide, liberator and subsequent emperor of Mexico.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/S7Ht5yy/18.jpg"
+    },
+
+    {
+        "id": 19,
+        "name": "Mole Poblano",
+        "Ingredients": "Step into the streets of Mexico during Cinco de Mayo and you will be mesmerized by the aroma of this traditional Mexican dish. The name means to mix or sauce in the Aztec language.The rich sauce, that requires attention to detail and patience in preparing, features chocolate and a delicate mix of flavors. The sauce is typically served piping hot and smothered over chicken and rice.",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/x5H7B5z/19.jpg"
+    },
+
+    {
+        "id": 20,
+        "name": "Menudo (Pork Stew)",
+        "Ingredients": "History tells us this came from Spain decades before the conquest. They used pieces of tripe, according to The Art Book of Cozine, by Diego Granado. Nowadays, menudo is a seasoned soup made with corn kernels, with or without the grains, and beef tripe. It is often also known as Pancita. ",
+        "price": "$9.99",
+        "img": "https://i.ibb.co/1nthZxn/20.jpg"
+    }
+]

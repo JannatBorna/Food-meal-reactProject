@@ -3,6 +3,7 @@ import { addToDb, getDb } from '../../../localstorage/localstorage';
 import Meal from '../Meal/Meal';
 import OrderList from '../../OrderList/OrderList';
 import './Meals.css';
+import { Container } from 'react-bootstrap';
 
 const Meals = () => {
     const [meals, setMeals] = useState([]);
@@ -49,8 +50,9 @@ const Meals = () => {
     }
 
     return (
+        <Container>
         <div className="meals-menu">
-            <div className="meals-container">
+            <div className="meals">
                 {
                     meals.map(meal => <Meal
                         key={meal.idMeal}
@@ -63,7 +65,7 @@ const Meals = () => {
                 <OrderList order={order}></OrderList>
             </div>
         </div>
-
+</Container>
     );
 };
 

@@ -4,7 +4,7 @@
     grid-column-gap: 10px;
     margin-top: 100px;
 }
-.meals-container{
+.meals{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;

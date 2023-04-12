@@ -30,13 +30,13 @@ function App() {
             <Route exact path="/home" element={<FoodHeader />}>
             </Route>
 
-            <Route exact path="/About" element={<Breakfast />}>
+            <Route exact path="/breakfast" element={<Breakfast />}>
             </Route>
 
-            <Route exact path="/blogs" element={<Dinner />}>
+            <Route exact path="/dinner" element={<Dinner />}>
             </Route>
 
-            <Route path="/profile" element={<Lunch />}>
+            <Route path="/lunch" element={<Lunch />}>
             </Route>
 
             <Route path="/meals" element={<Meals />}>
