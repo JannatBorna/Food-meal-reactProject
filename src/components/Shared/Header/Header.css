@@ -11,8 +11,9 @@
 }
 
 .manu:is(:hover, :focus){
-    background-color: #bffdee !important;
-    color: #000000 !important;
+  border: 1px solid #bffdee !important;
+  border-radius: 50px;
+  color: #bffdee !important;
 }
 
 #basic-nav-dropdown{
@@ -20,6 +21,23 @@
 }
 
 #basic-nav-dropdown:is(:hover, :focus){
-  background-color: #bffdee !important;
-color: #000000 !important;
+  color: #bffdee !important;
+}
+
+.dropdown:is(:hover, :focus){
+  border: 1px solid #bffdee !important;
+  border-radius: 50px;
+  color: #bffdee !important;
+  background-color: #222222 !important;
+}
+
+.nav-icon{
+  font-size: 20px;
+  color: #ffffff !important;
+}
+
+.cart{
+  color: #ff3232 !important;
+  border-radius: 100px;
+  font-size: 12px;
 }

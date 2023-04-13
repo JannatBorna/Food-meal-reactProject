@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-import FoodHeader from '../Foods/FoodHeader/FoodHeader';
+// import FoodHeader from '../Foods/FoodHeader/FoodHeader';
 import Blog from '../Blog/Blog';
 import About from '../About/About';
 // import Restaurant from '../Restaurant/Restaurant';
@@ -10,7 +10,7 @@ const Home = () => {
         <div>
             <Banner />
             <About />
-            <FoodHeader />
+            {/* <FoodHeader /> */}
             {/* <Restaurant /> */}
             <Blog />
         </div>
