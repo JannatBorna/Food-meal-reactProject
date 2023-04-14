@@ -1,0 +1,21 @@
+.about{
+    margin-top: 100px;
+}
+
+.element a{
+    text-decoration: none;
+    color: black !important;
+}
+
+.about-icon{
+    padding: 0.3em;
+    width: 100px;
+    height: 100px;
+    color: #ffffff !important;
+    background-color: #f98c8c !important;
+    border-radius: 100px; 
+}
+
+.element a h4{
+    font-size: 17px;
+}

@@ -31,12 +31,12 @@ const Header = () => {
 
            <Nav>
               <a href="/meals" className='text-decoration-none'>
-                <BsCart4  className='fa-2x text-danger fs-5'/>
+                <BsCart4  className='fa-2x cart fs-5'/>
                 {/* <span class="badge rounded-pill badge-notification bg-danger top-5">0</span> */}
               </a>
 
               <a href="/profile" className='mx-4 text-decoration-none'>
-                 <BiUserCircle  className='text-danger fs-5'/>
+                 <BiUserCircle  className='cart fs-5'/>
               </a>
           </Nav>
         </Navbar.Collapse>
