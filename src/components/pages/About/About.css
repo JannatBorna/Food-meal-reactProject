@@ -1,5 +1,18 @@
 .about{
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    padding: 50px;
+    background-color: #e9d6d6 !important;
+}
+.about h2{
+    padding: 0.5em;
+    text-align: start;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.element{
+     margin-top: 10px
 }
 
 .element a{
@@ -14,6 +27,13 @@
     color: #ffffff !important;
     background-color: #f98c8c !important;
     border-radius: 100px; 
+}
+
+.about-icon:is(:hover, :focus){
+    color: #f98c8c !important;
+    background-color: #ffffff !important;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
 }
 
 .element a h4{

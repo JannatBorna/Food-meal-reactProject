@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { GiGlassCelebration, GiDonut, GiHamburger, GiSandwich,GiTacos } from "react-icons/gi";
 import { CiPizza } from "react-icons/ci";
 import './About.css';
@@ -7,6 +7,8 @@ import './About.css';
 const About = () => {
     return (
         <div id='about' className='about'>
+            <Container>
+            <h2>OUR MENU</h2>
             <Row>
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
@@ -62,7 +64,8 @@ const About = () => {
                     </div>
                 </Col>
             </Row>
-        </div>
+        </Container>
+    </div>
     );
 };
 

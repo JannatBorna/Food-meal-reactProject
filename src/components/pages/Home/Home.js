@@ -1,17 +1,15 @@
 import React from 'react';
 import Banner from '../Banner/Banner';
-// import FoodHeader from '../Foods/FoodHeader/FoodHeader';
 import Blog from '../Blog/Blog';
 import About from '../About/About';
-// import Restaurant from '../Restaurant/Restaurant';
+import Shop from '../Shop/Shop';
 
 const Home = () => {
     return (
         <div>
             <Banner />
             <About />
-            {/* <FoodHeader /> */}
-            {/* <Restaurant /> */}
+            <Shop />
             <Blog />
         </div>
     );
