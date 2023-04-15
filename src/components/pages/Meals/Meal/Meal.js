@@ -5,7 +5,7 @@ const Meal = (props) => {
     const { strMeal, strInstructions, strMealThumb } = props.meal;
     const { handleAddToOrder, meal } = props;
     return (
-        <div className="meal">
+        <div className="meal my-5">
             <img src={strMealThumb} alt="" />
             <h4>{strMeal}</h4>
             <p>{strInstructions.slice(0, 100)}</p>

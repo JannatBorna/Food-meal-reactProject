@@ -11,7 +11,7 @@ const Lunch = () => {
      },[])
 
     return (
-        <div className="lunch">
+        <div className="foods my-5">
             
             <Container>
                 <Row lg={3} md={2} xs={1} className="g-4">
@@ -20,7 +20,7 @@ const Lunch = () => {
                             key={lunch.id}
                         >
 
-                            <Card className="shadow">
+                            <Card>
 
                                 <Card.Img className="w-50 mx-auto" variant="top" src={lunch.img} />
                                 <Card.Body>

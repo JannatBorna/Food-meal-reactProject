@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import './Dinner.css'
+
 
 const Dinner = () => {
     const [dinners, setDinners] = useState([]);
@@ -11,7 +11,7 @@ const Dinner = () => {
         .then(data => setDinners(data))
     }, [])
     return (
-        <div className="dinner">
+        <div className="foods my-5">
             
             <Container>
                 <Row lg={3} md={2} xs={1} className="g-4">
@@ -20,7 +20,7 @@ const Dinner = () => {
                             key={dinner.id}
                         >
 
-                            <Card className="shadow">
+                            <Card>
                                 
                                 <Card.Img className="w-50 mx-auto" variant="top" src={dinner.img} />
                                 <Card.Body>

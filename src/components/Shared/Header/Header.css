@@ -11,9 +11,9 @@
 }
 
 .manu:is(:hover, :focus){
-  border: 1px solid #bffdee !important;
+  border: 1px solid #f98c8c !important;
   border-radius: 50px;
-  color: #bffdee !important;
+  color: #f98c8c !important;
 }
 
 #basic-nav-dropdown{
@@ -21,13 +21,13 @@
 }
 
 #basic-nav-dropdown:is(:hover, :focus){
-  color: #bffdee !important;
+  color: #f98c8c !important;
 }
 
 .dropdown:is(:hover, :focus){
-  border: 1px solid #bffdee !important;
+  border: 1px solid #f98c8c !important;
   border-radius: 50px;
-  color: #bffdee !important;
+  color: #f98c8c !important;
   background-color: #222222 !important;
 }
 

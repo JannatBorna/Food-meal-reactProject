@@ -1,0 +1,79 @@
+#footer{
+    padding: 60px;
+    background-color: #eaeaea !important;
+}
+
+.footer{
+    text-align: start;
+    border-right: 1px solid #747474 !important;
+}
+
+.footer h2{
+    font-size: 17px;
+    font-family:Verdana;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 15px;
+}
+
+.footer-mid{
+    border-right: 1px solid #747474 !important;
+}
+
+.footer-mid h2{
+    font-size: 17px;
+    font-family:Verdana;
+    font-weight: bold;
+}
+
+.footer-mid input{
+    padding: 0.5em;
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 6vh;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.footer-mid button{
+    margin-left: -90px;
+    padding: 0.5em;
+    background-color: #f98c8c !important;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.footer-mid p{
+    font-size: 15px;
+}
+
+.footer-icon{
+    padding: 0.4em;
+    background-color: white !important;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.footer-icon:hover{
+    background-color: #f98c8c !important;
+    color: white !important;
+}
+
+.footer-end{
+    text-align: start;
+    margin-left: 100px;
+}
+
+.footer-end h2{
+    font-size: 17px;
+    font-family:Verdana;
+    font-weight: bold;
+}
+
+.footer-end p{
+    font-size: 15px;
+}
