@@ -1,4 +1,5 @@
 import React from 'react';
+import './OrderList.css';
 
 const OrderList = (props) => {
     const { order } = props;
@@ -16,9 +17,9 @@ const OrderList = (props) => {
     console.log(order);
 
     return (
-        <div>
+        <div className='order'>
             <h2>Order List</h2>
-            <h4>Items Ordered: {count}</h4>
+            <h6>Items Ordered: {count}</h6>
         </div>
     );
 };
