@@ -11,6 +11,7 @@ import Meals from './components/Pages/Meals/Meals/Meals';
 import Header from './components/Shared/Header/Header';
 import Footer from './components/Shared/Footer/Footer';
 import Profile from './components/Pages/Profile/Profile';
+import NotFound from './components/Pages/NotFound/NotFound';
 
 
 function App() {
@@ -44,6 +45,9 @@ function App() {
             </Route>
 
             <Route path="/seemore" element={<SeeMore />}>
+            </Route>
+
+            <Route exact path="*" element={<NotFound />}>
             </Route>
          </Routes>
         <Footer />
