@@ -18,21 +18,20 @@ const Header = () => {
           <Nav className="me-auto justify-content-center flex-grow-1 pe-3">
             <Nav.Link href="/home" className='manu'>Home</Nav.Link>
             <Nav.Link href="#about" className='manu mx-3'>About</Nav.Link>
-            <NavDropdown title="Food" id="basic-nav-dropdown" >
+            <Nav.Link href="#blog" className='manu'>Blog</Nav.Link>
+            <NavDropdown title="Food" id="basic-nav-dropdown" className='mx-3'>
               <div className='bg-dark'>
                 <NavDropdown.Item href="/breakfast" className='text-white dropdown'>Breakfast</NavDropdown.Item>
                 <NavDropdown.Item href="/lunch" className='text-white dropdown'>Lunch</NavDropdown.Item>
                 <NavDropdown.Item href="/dinner" className='text-white dropdown'>Dinner</NavDropdown.Item>
               </div>
             </NavDropdown>
-            <Nav.Link href="/meals" className='manu mx-3'>Shop</Nav.Link>
-            <Nav.Link href="#blog" className='manu'>Blog</Nav.Link>
           </Nav>
 
            <Nav>
+
               <a href="/meals" className='text-decoration-none'>
                 <BsCart4  className='fa-2x cart fs-5'/>
-                {/* <span class="badge rounded-pill badge-notification bg-danger top-5">0</span> */}
               </a>
 
               <a href="/profile" className='mx-4 text-decoration-none'>
