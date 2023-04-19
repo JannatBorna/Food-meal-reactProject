@@ -1,6 +1,6 @@
 import React from 'react';
 import './Header.css';
-import { Container, Nav, NavDropdown, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { BiUserCircle } from "react-icons/bi";
 import { BsCart4 } from "react-icons/bs";
 
@@ -19,13 +19,15 @@ const Header = () => {
             <Nav.Link href="/home" className='manu'>Home</Nav.Link>
             <Nav.Link href="#about" className='manu mx-3'>About</Nav.Link>
             <Nav.Link href="#blog" className='manu'>Blog</Nav.Link>
-            <NavDropdown title="Food" id="basic-nav-dropdown" className='mx-3'>
-              <div className='bg-dark'>
-                <NavDropdown.Item href="/breakfast" className='text-white dropdown'>Breakfast</NavDropdown.Item>
-                <NavDropdown.Item href="/lunch" className='text-white dropdown'>Lunch</NavDropdown.Item>
-                <NavDropdown.Item href="/dinner" className='text-white dropdown'>Dinner</NavDropdown.Item>
-              </div>
-            </NavDropdown>
+            <Nav.Link href="/breakfast" className='manu mx-3'>Meals</Nav.Link>
+            <Nav.Link href="/meals" className='manu'>Shop</Nav.Link>
+            {/* <NavDropdown title="Food" id="basic-nav-dropdown" className='mx-3'> */}
+              {/* <div className='bg-dark'> */}
+                {/* <NavDropdown.Item href="/breakfast" className='text-white dropdown'>Breakfast</NavDropdown.Item> */}
+                {/* <NavDropdown.Item href="/lunch" className='text-white dropdown'>Lunch</NavDropdown.Item> */}
+                {/* <NavDropdown.Item href="/dinner" className='text-white dropdown'>Dinner</NavDropdown.Item> */}
+              {/* </div> */}
+            {/* </NavDropdown> */}
           </Nav>
 
            <Nav>
