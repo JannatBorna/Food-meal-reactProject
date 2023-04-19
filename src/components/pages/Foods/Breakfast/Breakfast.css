@@ -25,6 +25,11 @@
     color: #c9c9c9 !important;
 }
 
+.food-text h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6b6b6b !important;
+}
+
 .food-text div h6{
     color: #f98c8c !important;
     font-size: 20px;
