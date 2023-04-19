@@ -7,7 +7,7 @@ import './Shop.css';
 const Shop = () => {
     return (
         <div className='shop' id='about'>
-            <Container>
+            <Container fluid>
                 <Row>
                     <Col lg={5} md={5} sm={12}>
                         <div className='shop1 d-flex'>

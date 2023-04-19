@@ -7,7 +7,7 @@ import './About.css';
 const About = () => {
     return (
         <div id='about' className='about'>
-            <Container>
+            <Container >
             <h2>OUR MENU</h2>
             <Row>
                 <Col lg={2} md={4} sm={12}>
