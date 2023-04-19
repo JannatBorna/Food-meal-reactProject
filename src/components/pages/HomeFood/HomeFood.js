@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import ReactStars from "react-rating-stars-component";
 import { BsBasket2, BsSuitHeart } from "react-icons/bs";
+import'./HomeFood.css';
 
 
 
 const HomeFood = () => {
     const [ homeFoods, setHomeFoods ] = useState ([]);
-     const [limit, setLimit] = useState(3);
+     const [limit, setLimit] = useState(4);
 
     useEffect(() =>{
         fetch('/breakfast.json')
@@ -19,7 +20,7 @@ const HomeFood = () => {
     <div className="foods my-5">
             
             <Container>
-                <Row lg={3} md={2} xs={1} className="g-4">
+                <Row lg={4} md={2} xs={1} className="g-4">
                    {
                        homeFoods.slice(0, limit ? limit : homeFoods.length).map(homeFood => <Col
                        key={homeFood.id}
@@ -33,7 +34,7 @@ const HomeFood = () => {
                                         <div className='food-text'>
                                             <div className='d-flex'>
                                                 <h6>{homeFood.price}</h6>
-                                                <p className='food-star'>
+                                                <p className='ReactStars'>
                                                     <ReactStars
                                                     size={20}
                                                     value= {homeFood.review}
@@ -44,7 +45,7 @@ const HomeFood = () => {
                                             </div>
                                          <h4>{homeFood.name}</h4>
                                         </div>
-                                        <div className='middle'>
+                                        <div className='middle-home'>
                                             <h4><a href="0"><BsBasket2 /></a></h4>
                                             <h4> <a href="0"><BsSuitHeart /></a></h4>
                                         </div>
