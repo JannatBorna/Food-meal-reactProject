@@ -4,6 +4,8 @@
         "name": "Healthy Meal Plan",
         "Ingredients": "Chicken-Enchilada-Stuffed Spaghetti Squash",
         "price": "$23.56",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/BTtjjVf/lunch1.png"
     },
     {
@@ -11,6 +13,8 @@
         "name": "Fried Chicken Bento",
         "Ingredients": "boneless skinless chicken breasts + cut into egg + beaten pepper blend",
         "price": "$9.99",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/fv8X6Vs/lunch2.png"
     },
     {
@@ -18,6 +22,8 @@
         "name": "Tarragon Rubbed Salmon",
         "Ingredients": "chopped nectarines + chopped red pepper + finely chopped jalapeño + lime juice + chopped cilantro",
         "price": "$6.99",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/s6XK1KM/lunch3.png"
     },
     {
@@ -25,6 +31,8 @@
         "name": "Indian Lunch",
         "Ingredients": "Stir chickpeas + potatoes + 1 teaspoon salt + coriander + garam masala + turmeric",
         "price": "$8.99",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/zr9N2yc/lunch4.png"
     },
     {
@@ -32,6 +40,8 @@
         "name": "Beef Steak",
         "Ingredients": "Stir in the onions and Beef + ginger garlic paste + and bay leaf.",
         "price": "$15.99",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/TYbrwcK/lunch5.png"
     },
     {
@@ -39,6 +49,8 @@
         "name": "Honey Soy Glazed Salmon with Peppers",
         "Ingredients": "",
         "price": "$7.99",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/1fdCGvy/lunch6.png"
     }
 ]

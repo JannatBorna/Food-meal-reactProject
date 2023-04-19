@@ -4,6 +4,8 @@
         "name": "Begel and cream cheese",
         "Ingredients": "Philadelphia Cream Cheese + tomato + red onion + basil leaves.",
         "price": "$6.99",
+        "review": "4",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/Npqy5Nb/breakfast1.png"
     },
     {
@@ -11,6 +13,8 @@
         "name": "Breakfast sendwich",
         "Ingredients": "Milk, Cheese Cultures + Salt + Parmesan Cheese + Almond Flour + Coconut Flour + Dried Whole Egg",
         "price": "$9.99",
+        "review": "5",
+        "reviewNum": "40",
         "img": "https://i.ibb.co/Jp9zRPw/breakfast2.png"
     },
     {
@@ -18,13 +22,17 @@
         "name": "Baked Chiken",
         "Ingredients": "Made with just brown sugar + paprika + oregano + garlic powder + salt and pepper",
         "price": "$10.99",
+        "review": "3",
+        "reviewNum": "80",
         "img": "https://i.ibb.co/V0F05GG/breakfast3.png"
     },
     {
         "id": "4bb",
         "name": "Eggs Benedict",
-        "Ingredients": "two of Canadian bacon + a poached egg + and smothered in traditional Eggs Benedict sauce,",
+        "Ingredients": "two of Canadian bacon + a poached egg + smothered in traditional Eggs Benedict sauce,",
         "price": "$8.99",
+        "review": "5",
+        "reviewNum": "160",
         "img": "https://i.ibb.co/MpY3vbF/breakfast4.png"
     },
     {
@@ -32,13 +40,17 @@
         "name": "Toast Croissant Fried egg ",
         "Ingredients": "crispy bacon + white cheddar + avocado + and eggs.",
         "price": "$19.99",
+        "review": "2",
+        "reviewNum": "30",
         "img": "https://i.ibb.co/Tw2d7fc/breakfast5.png"
     },
     {
         "id": "6bb",
-        "name": "Full Breakfast fried Egg Toast Brunch",
-        "Ingredients": "sausages + back bacon + eggs + tomatoes + mushrooms + fried bread.",
+        "name": "Breakfast fried Egg Toast",
+        "Ingredients": "sausages + back bacon + tomatoes + mushrooms + fried bread + eggs.",
         "price": "$3.99",
+        "review": "4",
+        "reviewNum": "50",
         "img": "https://i.ibb.co/cgcRXVj/breakfast6.png"
     }
 ]
