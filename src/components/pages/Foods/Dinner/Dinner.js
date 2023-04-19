@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import ReactStars from "react-rating-stars-component";
 import { IoMdArrowDropleftCircle,IoMdArrowDroprightCircle } from "react-icons/io";
+import { BsBasket2, BsSuitHeart } from "react-icons/bs";
+
 
 
 const Dinner = () => {
@@ -23,23 +25,30 @@ const Dinner = () => {
                         dinners.map(dinner => <Col
                             key={dinner.id}
                         >
-                <Card>
-                   <img className="w-50 mx-auto" src={dinner.img} alt=''/>
-                    <div className='foods-text'>
-                        <div className='d-flex'>
-                            <h6>{dinner.price}</h6>
-                            <p className='food-start'>
-                                <ReactStars
-                                size={20}
-                                value= {dinner.review}
-                                edit={false}
-                            />
-                            <small className='reviewNum'>({dinner.reviewNum})</small>
-                            </p>
-                        </div>
-                     <h4>{dinner.name}</h4>
-                    </div>
-               </Card>
+                            <Card className='food'>
+                                <div className='food-div'>
+                                    <p className='hot'>Hot</p>
+                                    <img className="w-50 mx-auto" src={dinner.img} alt=''/>
+                                        <div className='food-text'>
+                                            <div className='d-flex'>
+                                                <h6>{dinner.price}</h6>
+                                                <p className='food-star'>
+                                                    <ReactStars
+                                                    size={20}
+                                                    value= {dinner.review}
+                                                    edit={false}
+                                                />
+                                                <small className='reviewNum'>({dinner.reviewNum})</small>
+                                                </p>
+                                            </div>
+                                         <h4>{dinner.name}</h4>
+                                        </div>
+                                        <div className='middle'>
+                                            <h4><a href="0"><BsBasket2 /></a></h4>
+                                            <h4> <a href="0"><BsSuitHeart /></a></h4>
+                                        </div>
+                            </div>
+                           </Card>
 
                         </Col>)
 

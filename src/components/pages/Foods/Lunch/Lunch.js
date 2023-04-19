@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import ReactStars from "react-rating-stars-component";
 import { IoMdArrowDropleftCircle,IoMdArrowDroprightCircle } from "react-icons/io";
+import { BsBasket2, BsSuitHeart } from "react-icons/bs";
+
 
 const Lunch = () => {
      const [lunchs, setLunchs] = useState([]);
@@ -23,22 +25,29 @@ const Lunch = () => {
                         lunchs.map(lunch => <Col
                             key={lunch.id}
                         >
-                            <Card>
-                               <img className="w-50 mx-auto" src={lunch.img} alt=''/>
-                                <div className='foods-text'>
-                                    <div className='d-flex'>
-                                        <h6>{lunch.price}</h6>
-                                        <p className='food-start'>
-                                            <ReactStars
-                                            size={20}
-                                            value= {lunch.review}
-                                            edit={false}
-                                        />
-                                        <small className='reviewNum'>({lunch.reviewNum})</small>
-                                        </p>
-                                    </div>
-                                 <h4>{lunch.name}</h4>
-                                </div>
+                        <Card className='food'>
+                                <div className='food-div'>
+                                    <p className='hot'>Hot</p>
+                                    <img className="w-50 mx-auto" src={lunch.img} alt=''/>
+                                        <div className='food-text'>
+                                            <div className='d-flex'>
+                                                <h6>{lunch.price}</h6>
+                                                <p className='food-star'>
+                                                    <ReactStars
+                                                    size={20}
+                                                    value= {lunch.review}
+                                                    edit={false}
+                                                />
+                                                <small className='reviewNum'>({lunch.reviewNum})</small>
+                                                </p>
+                                            </div>
+                                         <h4>{lunch.name}</h4>
+                                        </div>
+                                        <div className='middle'>
+                                            <h4><a href="0"><BsBasket2 /></a></h4>
+                                            <h4> <a href="0"><BsSuitHeart /></a></h4>
+                                        </div>
+                            </div>
                            </Card>
 
                         </Col>)
