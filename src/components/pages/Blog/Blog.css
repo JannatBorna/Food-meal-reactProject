@@ -1,23 +1,29 @@
-.about-us i {
-  background-color: #f91944;
-  font-size: 24px;
-  color: white;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 50%;
+.blog-top{
+  text-align: start;
+}
+.blog-top img{
+  width: 25%;
 }
 
-a {
+.blog{
+  text-align: start;
+}
+
+.blog img{
+  width: 100%;
+  
+}
+
+.blog-icon{
+  color: #f98c8c !important;
+}
+
+.blog a {
   text-decoration: none;
-  font-weight: bold;
-}
-
-.more-btn {
-  background-color: #19e270;
-  color: white;
-  border-radius: 50%;
-  border: none;
+  padding: 0.5em;
+  border: 1px solid #f98c8c !important;
+  /* background-color: #f98c8c !important; */
+  color: #f98c8c;
   font-weight: bolder;
   font-size: 15px;
-  text-align: center;
 }

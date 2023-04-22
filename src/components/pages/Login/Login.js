@@ -7,7 +7,9 @@ import './Login.css';
 
 
 const Login = () => {
+    
     const { signInWithGoogle, signInWithGithub, processLogin} = useAuth();
+
     return (
         <div className="from">
             <>

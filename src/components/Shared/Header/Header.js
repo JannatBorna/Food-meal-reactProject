@@ -36,7 +36,7 @@ const Header = () => {
                 <BsCart4  className='fa-2x cart fs-5'/>
               </a>
 
-              <a href="/profile" className='mx-4 text-decoration-none'>
+              <a href="/login" className='mx-4 text-decoration-none'>
                  <BiUserCircle  className='cart fs-5'/>
               </a>
           </Nav>

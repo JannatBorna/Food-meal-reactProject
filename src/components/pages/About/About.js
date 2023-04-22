@@ -12,7 +12,7 @@ const About = () => {
             <Row>
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
-                        <a href="/">
+                        <a href="/breakfast">
                             <GiGlassCelebration className='about-icon'/>
                             <h4>Bread</h4>
                         </a>
@@ -21,7 +21,7 @@ const About = () => {
 
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
-                        <a href="/">
+                        <a href="/breakfast">
                             <GiDonut className='about-icon'/>
                             <h4>Donut</h4>
                         </a>
@@ -31,7 +31,7 @@ const About = () => {
 
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
-                        <a href="/">
+                        <a href="/breakfast">
                             <GiHamburger className='about-icon'/>
                             <h4>Hamburger</h4>
                         </a>
@@ -39,7 +39,7 @@ const About = () => {
                 </Col>
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
-                        <a href="/">
+                        <a href="/breakfast">
                             <CiPizza className='about-icon'/>
                             <h4>Pizza</h4>
                         </a>
@@ -48,7 +48,7 @@ const About = () => {
 
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
-                        <a href="/">
+                        <a href="/breakfast">
                             <GiSandwich className='about-icon'/>
                             <h4>Sandwich</h4>
                         </a>
@@ -57,7 +57,7 @@ const About = () => {
 
                 <Col lg={2} md={4} sm={12}>
                     <div className='element'>
-                        <a href="/">
+                        <a href="/breakfast">
                             <GiTacos className='about-icon'/>
                             <h4>Tacos</h4>
                         </a>

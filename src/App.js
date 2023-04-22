@@ -12,6 +12,7 @@ import Header from './components/Shared/Header/Header';
 import Footer from './components/Shared/Footer/Footer';
 import Profile from './components/Pages/Profile/Profile';
 import NotFound from './components/Pages/NotFound/NotFound';
+import SingleBlog from './components/Pages/SingleBlog/SingleBlog';
 
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
             </Route>
 
             <Route path="/seemore" element={<SeeMore />}>
+            </Route>
+
+            <Route path="/singleBlog" element={<SingleBlog />}>
             </Route>
 
             <Route exact path="*" element={<NotFound />}>
