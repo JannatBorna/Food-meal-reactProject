@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyDVda74n8WOcyPisOqbJnGAQs81uI9mYb8",
-    authDomain: "hot-onion-resturant-57ff3.firebaseapp.com",
-    projectId: "hot-onion-resturant-57ff3",
-    storageBucket: "hot-onion-resturant-57ff3.appspot.com",
-    messagingSenderId: "749452197635",
-    appId: "1:749452197635:web:8093c5eb11df138c093336"
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_APP_ID
 };
 
-export default firebaseConfig;
+export  default firebaseConfig;
