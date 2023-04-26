@@ -1,0 +1,15 @@
+.single-blog img{
+    width: 90%;
+    height: 50vh;
+
+}
+
+.single-text{
+    padding: 10vh;
+    text-align: start;
+}
+
+.single-text span{
+    font-size: 30px;
+
+}

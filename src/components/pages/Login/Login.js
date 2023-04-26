@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container ,Row, Col } from 'react-bootstrap';
-// import useAuth from '../../hook/useAuth';
+import useAuth from '../../hook/useAuth';
 import { FcGoogle } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
 import './Login.css';
@@ -8,7 +8,7 @@ import './Login.css';
 
 const Login = () => {
     
-    // const { signInWithGoogle, signInWithGithub, processLogin} = useAuth();
+    const { signInWithGoogle, signInWithGithub } = useAuth();
 
     return (
         <div className='my-5'>
@@ -23,8 +23,8 @@ const Login = () => {
                             <button className='sign-btn'>SIGN IN</button>
                             <div className='mt-4'>
                                 <p>New user - <a href="/register">Register</a> Now</p>
-                                <button className='google-btn'><FcGoogle/> Google</button>
-                                <button className='github-btn mx-3'><BsGithub /> Github</button>
+                                <button className='google-btn'onClick={signInWithGoogle}><FcGoogle/> Google</button>
+                                <button className='github-btn mx-3' onClick={signInWithGithub}><BsGithub /> Github</button>
                             </div>
                         </div>
                     </Col>
