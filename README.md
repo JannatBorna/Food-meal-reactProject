@@ -1,4 +1,4 @@
-# Github link - [Food-meal-react](https://github.com/JannatBorna/Food-meal-react)
+# Github link - [Food-meal](https://github.com/JannatBorna/Food-meal-react)
 
 <!-- 
 1.design demo
