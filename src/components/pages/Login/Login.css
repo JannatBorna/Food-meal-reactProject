@@ -1,5 +1,5 @@
 .sign{
-  background-color: #efefef !important;
+    background-color: #efefef !important;
     box-shadow: #3c40434d 0px 1px 2px 0px, #3c404326 0px 2px 6px 2px;
     width: 45%;
     height: 70vh;
@@ -27,16 +27,24 @@
 
 
 .sign-btn {
-  background-color: #f98c8c;
-  color: white;
+  background-color: #f98c8c !important;
+  color: #ffffff !important;
   border: none;
   padding: 0.5em;
+  letter-spacing: 4px
 }
 
-.google-btn {
-  padding: 0.5em;
+.sign-btn:active{
+  background-color: #ffe8e8 !important;
+  color: #000000 !important;
 }
 
-.github-btn {
+.auth-btn {
   padding: 0.5em;
+  letter-spacing: 2px;
+  
+}
+
+.auth-btn:active{
+  background-color: #ffe8e8 !important;
 }

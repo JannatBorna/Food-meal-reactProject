@@ -1,21 +1,21 @@
 import React from 'react';
 import { Container ,Row, Col } from 'react-bootstrap';
-import useAuth from '../../hook/useAuth';
+// import useAuth from '../../hook/useAuth';
 import { FcGoogle } from "react-icons/fc";
 import { BsGithub } from "react-icons/bs";
 import './Login.css';
-import { useLocation, useNavigate } from 'react-router-dom';
+// import { useLocation, useNavigate } from 'react-router-dom';
 
 
 const Login = () => {
 
-const location = useLocation();
-const navigate = useNavigate();
+// const location = useLocation();
+// const navigate = useNavigate();
     
 //   const [loginData, setLoginData] = useState({});
 //   const location = useLocation();
 //   const navigate = useNavigate();
-  const {signInWithGoogle, signInWithGithub  } = useAuth();
+//   const {signInWithGoogle, signInWithGithub  } = useAuth();
 
 
 //   const handleLoginSubmit = e => {
@@ -23,13 +23,13 @@ const navigate = useNavigate();
     //   e.preventDefault();
 //   }
 
-  const handleGoogleSign = () => {
-      signInWithGoogle(location, navigate)
-  }
+//   const handleGoogleSign = () => {
+    //   signInWithGoogle(location, navigate)
+//   }
 
-  const handleGithubSign = () => {
-      signInWithGithub(location, navigate)
-  }
+//   const handleGithubSign = () => {
+    //   signInWithGithub(location, navigate)
+//   }
 
     return (
         <div className='my-5'>
@@ -44,8 +44,8 @@ const navigate = useNavigate();
                             <button className='sign-btn'>SIGN IN</button>
                             <div className='mt-4'>
                                 <p>New user - <a href="/register">Register</a> Now</p>
-                                <button className='google-btn'onClick={handleGoogleSign}><FcGoogle/> Google</button>
-                                <button className='github-btn mx-3' onClick={handleGithubSign}><BsGithub /> Github</button>
+                                <button className='auth-btn'><FcGoogle/> Google</button>      {/* onClick={handleGoogleSign} */}
+                                <button className='auth-btn mx-3'><BsGithub /> Github</button> {/*onClick={handleGithubSign} */}
                             </div>
                         </div>
                     </Col>

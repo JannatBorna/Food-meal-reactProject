@@ -1,8 +1,8 @@
 import React from 'react';
 import './Header.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
-import { BiUserCircle } from "react-icons/bi";
 import { BsCart4 } from "react-icons/bs";
+import { HiUser } from "react-icons/hi2";
 
 
 
@@ -37,7 +37,7 @@ const Header = () => {
               </a>
 
               <a href="/login" className='mx-4 text-decoration-none'>
-                 <BiUserCircle  className='cart fs-5'/>
+                 <HiUser className='cart fs-5'/>
               </a>
           </Nav>
         </Navbar.Collapse>

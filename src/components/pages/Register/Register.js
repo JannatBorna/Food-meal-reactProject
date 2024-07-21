@@ -23,8 +23,8 @@ const Register = () => {
                         <button className='sign-btn mt-2'>SIGN IN</button>
                         <div className='mt-3'>
                             <p>All ready have account - <a href="/login">Login</a> Now</p>
-                            <button className='google-btn'><FcGoogle/> Google</button>
-                            <button className='github-btn mx-3'><BsGithub /> Github</button>
+                            <button className='auth-btn'><FcGoogle/> Google</button>
+                            <button className='auth-btn mx-3'><BsGithub /> Github</button>
                         </div>
                     </div>
                 </Col>
