@@ -44,7 +44,7 @@ const Login = () => {
                             {/* <button className='sign-btn'>SIGN IN</button> */}
                             {/* <div className='mt-4'> */}
                                 
-                                <button className='auth-btn' ><FcGoogle/> Google</button>      {/* onClick={signInWithGoogle} */}
+                                <button className='auth-btn' ><FcGoogle/> Google</button>      {/* onClick={signInWithGoogle}1§ */}
                                 <button className='auth-btn mt-3'><BsGithub /> Github</button> {/*onClick={handleGithubSign} */}
                             {/* </div> */}
                             
