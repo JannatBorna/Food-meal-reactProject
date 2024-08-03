@@ -15,7 +15,7 @@ const Login = () => {
 //   const [loginData, setLoginData] = useState({});
 //   const location = useLocation();
 //   const navigate = useNavigate();
-//   const {signInWithGoogle, signInWithGithub  } = useAuth();
+// const {signInWithGoogle, signInWithGithub  } = useAuth();
 
 
 //   const handleLoginSubmit = e => {
@@ -37,16 +37,18 @@ const Login = () => {
                 <Row>
                     <Col lg={12} md={12} sm={12}className="input-login">
                         <div className="sign">
-                            <label className='email'>Email :</label>
-                            <input type="email" name="email" /> <br/>
-                            <label className='my-5 m-1'>Password :</label>
-                            <input type="password" name="password" /> <br />
-                            <button className='sign-btn'>SIGN IN</button>
-                            <div className='mt-4'>
-                                <p>New user - <a href="/register">Register</a> Now</p>
-                                <button className='auth-btn'><FcGoogle/> Google</button>      {/* onClick={handleGoogleSign} */}
-                                <button className='auth-btn mx-3'><BsGithub /> Github</button> {/*onClick={handleGithubSign} */}
-                            </div>
+                            {/* <label className='email'>Email :</label> */}
+                            {/* <input type="email" name="email" /> <br/> */}
+                            {/* <label className='my-5 m-1'>Password :</label> */}
+                            {/* <input type="password" name="password" /> <br /> */}
+                            {/* <button className='sign-btn'>SIGN IN</button> */}
+                            {/* <div className='mt-4'> */}
+                                
+                                <button className='auth-btn' ><FcGoogle/> Google</button>      {/* onClick={signInWithGoogle} */}
+                                <button className='auth-btn mt-3'><BsGithub /> Github</button> {/*onClick={handleGithubSign} */}
+                            {/* </div> */}
+                            
+                                <p className='mt-4'>New user - <a href="/register">Register</a> Now</p>
                         </div>
                     </Col>
                 </Row>

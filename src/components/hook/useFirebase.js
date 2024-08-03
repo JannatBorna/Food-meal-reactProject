@@ -6,7 +6,8 @@ import {
     signOut,} from "firebase/auth";
 import { useState } from "react";
 
-import firebaseInitialize from "../Firebase/firebase.init";
+import firebaseInitialize from "../Firebase/firebase.initialize";
+
 
 firebaseInitialize();
 

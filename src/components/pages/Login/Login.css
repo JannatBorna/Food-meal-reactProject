@@ -2,46 +2,50 @@
     background-color: #efefef !important;
     box-shadow: #3c40434d 0px 1px 2px 0px, #3c404326 0px 2px 6px 2px;
     width: 45%;
-    height: 70vh;
+    height: 50vh;
     margin-left: 400px;
     padding: 76px;
 }
 
-.sign label{
-  color: #f98c8c !important;
-  font-weight: bold;
-}
+/* .sign label{ */
+  /* color: #f98c8c !important; */
+  /* font-weight: bold; */
+/* } */
+/*  */
+/* .email{ */
+  /* margin-right: 35px; */
+/* } */
 
-.email{
-  margin-right: 35px;
-}
+/* .sign input{ */
+  /* width: 300px; */
+  /* height: 5vh; */
+  /* outline: none; */
+  /* background-color: #ffffff !important; */
+  /* border: none; */
+  /* border-radius: 2px; */
+/* } */
+/*  */
 
-.sign input{
-  width: 300px;
-  height: 5vh;
-  outline: none;
-  background-color: #ffffff !important;
-  border: none;
-  border-radius: 2px;
-}
-
-
-.sign-btn {
-  background-color: #f98c8c !important;
-  color: #ffffff !important;
-  border: none;
-  padding: 0.5em;
-  letter-spacing: 4px
-}
-
-.sign-btn:active{
-  background-color: #ffe8e8 !important;
-  color: #000000 !important;
-}
+/* .sign-btn { */
+  /* background-color: #f98c8c !important; */
+  /* color: #ffffff !important; */
+  /* border: none; */
+  /* padding: 0.5em; */
+  /* letter-spacing: 4px */
+/* } */
+/*  */
+/* .sign-btn:active{ */
+  /* background-color: #ffe8e8 !important; */
+  /* color: #000000 !important; */
+/* } */
 
 .auth-btn {
+  background-color: #ffffff !important;
+  width: 100%;
   padding: 0.5em;
   letter-spacing: 2px;
+  border: 1px solid #cccccc;
+  font-size: 17px;
   
 }
 

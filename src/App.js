@@ -12,7 +12,9 @@ import NotFound from './components/pages/NotFound/NotFound';
 import Profile from './components/pages/Profile/Profile';
 import Register from './components/pages/Register/Register';
 import SingleBlog from './components/pages/SingleBlog/SingleBlog';
+import initializeAuthentication from './components/Firebase/firebase.initialize';
 
+initializeAuthentication()
 
 function App() {
   return (
